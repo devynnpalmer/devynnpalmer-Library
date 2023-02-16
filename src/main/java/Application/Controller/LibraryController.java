@@ -72,7 +72,7 @@ public class LibraryController {
     }
 
     /**
-     * Handler to post a new author.
+     * Handler to post a new author. 
      * The Jackson ObjectMapper will automatically convert the JSON of the POST request into an Author object.
      * If AuthorService returns a null author (meaning posting an Author was unsuccessful), the API will return a 400
      * message (client error). There is no need to change anything in this method.
